@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.header-block {
+    padding-block: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 20px;
+}
+
+.first-input-field {
+    padding-block: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 15px;
+}
+
+.first-input-field-label {
+    padding-block: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 15px;
+}
+
+.second-input-field {
+    padding-block: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 15px;
+}
+
+.second-input-field-label {
+    padding-block: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 15px;
+}
+
+.field-output-block {
+    padding-block: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 15px;
+}
+
+.lgc-bg {
+    background-color: rgb(242, 242, 242);
+    padding: 1em;
+}
+
+.lgc-bg-inverse {
+    background-color: rgb(22, 50, 92);
+}
+
+.lgc-highlight {
+    background-color: rgb(255,255,0);
+}
+
+.block {
+    margin-block: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}

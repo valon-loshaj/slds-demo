@@ -1,0 +1,28 @@
+<template>
+    <div class="container">
+        <h1 class="header-block">
+            Field Input Variants
+        </h1>
+        <div class="first-input-field">
+            A text input field that becomes highlighted when focused and returns to default when focus is moved away.
+        </div>
+        <div class="lgc-bg block">
+            <label class="first-input-field-label" for="first-field">Enter some text"</label>
+            <div class="first-input-field">
+                <input id="first-field" type="text" onfocus={handleInputFocus} onblur={handleInputBlur}>
+            </div>
+        </div>
+        <div class="second-input-field">
+            A text input field that live updates a variable.
+        </div>
+        <div class="lgc-bg block">
+            <label class="second-input-field-label" for="second-field">Enter some text"</label>
+            <div class="second-field">
+                <input id="second-field" type="text" onchange={handleInputChange}>
+            </div>
+        </div>
+        <div class="field-output-block">
+            <p>The value of the input field is: <span class="output-span">{textValue}</span></p>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "slds-demo",
+      "default": true
+    }
+  ],
+  "name": "slds-demo",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "55.0"
+}
