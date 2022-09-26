@@ -19,14 +19,13 @@
 }
 
 .first-input-field-label {
-    padding-block: 4%;
-    margin-left: 2%;
-    margin-right: 2%;
-    font-size: 15px;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 13px;
 }
 
 .second-input-field {
-    padding-block: 1%;
+    padding-block: 2%;
     margin-left: 2%;
     margin-right: 2%;
     font-size: 15px;
@@ -36,14 +35,18 @@
     padding-block: 1%;
     margin-left: 2%;
     margin-right: 2%;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .field-output-block {
     padding-block: 3%;
     margin-left: 2%;
     margin-right: 2%;
-    font-size: 15px;
+}
+
+.output-span {
+    font-style: black;
+    font-size: 13px;
 }
 
 .lgc-bg {
@@ -63,4 +66,5 @@
     margin-block: 2%;
     margin-left: 2%;
     margin-right: 2%;
+    display: block;
 }

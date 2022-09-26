@@ -1,6 +1,7 @@
 import { LightningElement } from 'lwc';
+export default class fieldInputCustom extends LightningElement {
+    displayText = '';
 
-export default class FieldInputCustom extends LightningElement {
     handleInputFocus(event) {
         // modify parent to properly highlight visually
         const classList = event.target.parentNode.classList;
@@ -14,6 +15,8 @@ export default class FieldInputCustom extends LightningElement {
     }
 
     handleInputChange(event) {
-        this.textValue = event.detail.value;
+        console.log('The text has been updated. Display Text: ');
+        this.displayText = event.target.value;
+        return this.displayText;
     }
 }

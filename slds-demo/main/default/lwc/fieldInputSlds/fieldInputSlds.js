@@ -1,7 +1,7 @@
 import { LightningElement } from 'lwc';
 
-export default class InputTextAdvanced extends LightningElement {
-    textValue;
+export default class fieldInputSlds extends LightningElement {
+    textValue = '';
 
     handleInputFocus(event) {
         // modify parent to properly highlight visually
