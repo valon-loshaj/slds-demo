@@ -1,0 +1,14 @@
+<template>
+    <lightning-card variant="narrow" title="Field Input Variants">
+        <div>
+            <label for="image_uploads">Choose images to upload (PNG, JPG)</label>
+            <input class="input" type="file" id="image_uploads" name="image_uploads" accept=".jpg, .jpeg, .png" onchange={updateImageDisplay} multiple />
+        </div>
+        <div class="preview">
+            <p>No files currently selected for upload</p>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </lightning-card>
+</template>
